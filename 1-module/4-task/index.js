@@ -1,3 +1,4 @@
 function checkSpam(str) {
-  // ваш код...
+  return !!["1xBet", "XXX"].find( key => 
+      str.toLowerCase().includes(key.toLocaleLowerCase()) ) || false
 }
